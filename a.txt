@@ -1,0 +1,12 @@
+desarrollo nativo == android == se programa con java y kotlin == jvm
+			IOS = swift == sdk
+es mas caro y algunas aplicaciones no tienen las mismas utilidades
+
+desarrollo hibrido == frameworks == ionic, flutter, xamarin, react native  
+ahorros de desarrollo
+
+vamos a programar con type script
+
+Patròn de diseño 
+Solid
+Agilidad
