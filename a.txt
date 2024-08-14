@@ -10,3 +10,18 @@ vamos a programar con type script
 Patròn de diseño 
 Solid
 Agilidad
+
+windows powershel
+node --version
+npm == gestor de dependencias
+ionic
+ls == ver carpetas
+ionic start
+use wizard no
+
+ionic serve == para levantar la pagina (recordar siempre estar en la carpeta del nombre del proyecto)
+
+
+
+
+
