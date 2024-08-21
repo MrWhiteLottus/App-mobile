@@ -14,14 +14,40 @@ Agilidad
 windows powershel
 node --version
 npm == gestor de dependencias
+
 ionic
 ls == ver carpetas
 ionic start
 use wizard no
+framework angular
+nombre del proyecto
+nomodulen
 
 ionic serve == para levantar la pagina (recordar siempre estar en la carpeta del nombre del proyecto)
 
+npm install == para descargar las dependencias
 
+ionicframeworks para buscar componentes de ionic como botones, cartas, etc
 
+ ion-content esta la estructura del ionic
 
+ ion-header esta la cabecera del proyecto
+
+ion_footer se encuentra al final de la aplicacion 
+
+ion-order para ordenar el lugar
+
+ion-list para ordernar
+
+ion-toolbar para tener una barra con botones 
+
+ion-menu extiende un menu aparte
+
+ion-imput para agregar cuadro de texto
+
+ion back button un boton que sirve para volver a la pagina anterior
+
+ion-toggle sirve como un booleano pero mas bonito
+
+ion-select 
 
