@@ -29,7 +29,11 @@ npm install == para descargar las dependencias
 
 ionicframeworks para buscar componentes de ionic como botones, cartas, etc
 
- ion-content esta la estructura del ionic
+ion-content esta la estructura del ionic
+
+El enrrutador permite que 
+
+ionic generate para crear nuevas paginas
 
  ion-header esta la cabecera del proyecto
 
