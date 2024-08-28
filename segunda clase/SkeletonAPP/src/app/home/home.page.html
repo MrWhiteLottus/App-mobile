@@ -1,6 +1,48 @@
-<ion-card>
-  <div>
-    Home
-  </div>
+<ion-header>
+  <ion-toolbar>
+    SkeletonAPP
+  </ion-toolbar>
+</ion-header>
+  
 
-</ion-card>
+
+<ion-content>
+
+  <ion-title>Bienvenidos</ion-title>
+
+  <ion-list>
+
+    <ion-card>
+      <ion-item>
+        <ion-input label="Nombre" placeholder=""></ion-input>
+      </ion-item>
+    </ion-card>
+
+    <ion-card>
+      <ion-item>
+        <ion-input label="Apellido" placeholder=""></ion-input>
+      </ion-item>
+    </ion-card>
+
+    <ion-item>
+      <ion-select label="Nivel de educacion" placeholder="">
+        <ion-select-option value="apple">Basico</ion-select-option>
+        <ion-select-option value="banana">Medio</ion-select-option>
+        <ion-select-option value="orange">Superior</ion-select-option>
+      </ion-select>
+    </ion-item>
+    
+    <ion-item>
+        <ion-input label="Fecha Nac"  readonly></ion-input>
+      <ion-button id="click-trigger">Calendario</ion-button>
+      <ion-popover trigger="click-trigger" triggerAction="click">
+        <ng-template>
+          <ion-datetime  presentation="date"></ion-datetime>
+        </ng-template>
+      </ion-popover>
+    </ion-item>
+
+  </ion-list>
+
+
+</ion-content>

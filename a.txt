@@ -55,3 +55,4 @@ ion-toggle sirve como un booleano pero mas bonito
 
 ion-select 
 
+
