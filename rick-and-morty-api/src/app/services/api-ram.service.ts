@@ -1,0 +1,22 @@
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { CharactersResponse } from '../models/characters-response';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ApiRamService {
+
+  constructor(
+    private http: HttpClient
+  ) { }
+
+  getCharacters(page: number) {
+    return this.http
+      .get<CharactersResponse>(`https://rickandmortyapi.com/api/character?page=${page}`);
+  }
+
+  getCharacter(id: number) {
+    return this.http.get('https://rickandmortyapi.com/api/character' + id)
+  }
+}

@@ -18,7 +18,11 @@ const routes: Routes = [
   {
     path: 'profiles',
     loadChildren: () => import('./pages/profiles/profiles.module').then( m => m.ProfilesPageModule)
+  },  {
+    path: 'rick-and-morty',
+    loadChildren: () => import('./pages/rick-and-morty/rick-and-morty.module').then( m => m.RickAndMortyPageModule)
   },
+
 
 ];
 
